@@ -6,7 +6,7 @@ let countryToFind = null;
 
 const DEBOUNCE_DELAY = 300;
 
-refs = {
+const refs = {
   inputEl: document.getElementById('search-box'),
   countriesList: document.querySelector('.country-list'),
   countryInfo: document.querySelector('.country-info'),
